@@ -4,8 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheussilvano/)
 
 ![Matheus's GitHub stats](https://github-readme-stats.vercel.app/api?username=matheussilvano&show_icons=true&theme=transparent)
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=matheussilvano&hide_progress=true)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matheussilvano&layout=compact)
 ## Technologies I use in my daily life
 
 <div style="display: inline_block"><br/>
