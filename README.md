@@ -2,7 +2,7 @@
 ### Hi, I'm Matheus Silvano! 👋
 
 ## About me
-### My name is Matheus, a young man passionate about programming with a solid academic background and notable achievements in scientific competitions. Currently 18 years old, I come from ### training at the Colégio Militar de Florianópolis, where I developed leadership, discipline and resilience skills.
+### My name is Matheus, a young man passionate about programming with a solid academic background and notable achievements in scientific competitions. Currently 18 years old, I come from training at the Colégio Militar de Florianópolis, where I developed leadership, discipline and resilience skills.
 
 ### 🏅 Highlighted Academic Achievements:
 
