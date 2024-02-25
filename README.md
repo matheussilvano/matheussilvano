@@ -1,6 +1,8 @@
 
 ### Hi, I'm Matheus Silvano! 👋
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheussilvano/)
+
 ## About me
 ### My name is Matheus, a young man passionate about programming with a solid academic background and notable achievements in scientific competitions. Currently 18 years old, I come from training at the Colégio Militar de Florianópolis, where I developed leadership, discipline and resilience skills.
 
@@ -17,8 +19,6 @@
 
 ### 💡 Next Steps:
 ### I am seeking opportunities that allow me to apply my programming skills in challenging and innovative environments. Open to collaborations, projects and continuous learning.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheussilvano/)
 
 ![Matheus's GitHub stats](https://github-readme-stats.vercel.app/api?username=matheussilvano&show_icons=true&theme=transparent)
 
