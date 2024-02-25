@@ -8,5 +8,5 @@
 ## Technologies I use in my daily life
 
 <div style="display: inline_block"><br/>
-  <img align ="center" alt="python" sccr="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img align ="center" alt="python" scrc="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </div>
