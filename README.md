@@ -12,7 +12,7 @@
 ### 2 times Honorable Mention in the Brazilian Public School Mathematics Olympiad (OBMEP)
 
 ### 🖥️ Programming Experience:
-### With a command of Python, I constantly seek challenges that allow me to expand my knowledge and contribute to innovative solutions. I believe in the power of technology to transform ### the world and I look forward to actively participating in this process.
+### With a command of Python, I constantly seek challenges that allow me to expand my knowledge and contribute to innovative solutions. I believe in the power of technology to transform the world and I look forward to actively participating in this process.
 
 ### 🎓 Education:
 ### Recently graduated from Colégio Militar, where in addition to a rigorous education, I acquired fundamental values ​​such as teamwork, ethics and commitment.
