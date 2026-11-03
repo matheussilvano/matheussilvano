@@ -162,11 +162,25 @@ def constellation_svg(prs: list[dict]) -> str:
 
 
 def pr_table(prs: list[dict], limit: int = 12) -> str:
-    rows = ["| | Project | Pull request |", "|---|---|---|"]
-    for pr in prs[:limit]:
-        icon = "✅" if pr["state"] == "merged" else "🟢"
-        rows.append(f'| {icon} | [{pr["repo"]}](https://github.com/{pr["repo"]}) | [{esc(pr["title"])}]({pr["url"]}) |')
-    return "\n".join(rows)
+    """Merged pull requests first, then the ones still in review, then a link to all merged ones."""
+    merged = [p for p in prs if p["state"] == "merged"]
+    review = [p for p in prs if p["state"] != "merged"]
+    parts = []
+    if merged:
+        projects = len({p["repo"] for p in merged})
+        rows = [f"**Merged: {len(merged)} in {projects} " + ("project" if projects == 1 else "projects") + "**", "",
+                "| Project | Pull request | Merged |", "|---|---|---|"]
+        for pr in merged[:limit]:
+            rows.append(f'| [{pr["repo"]}](https://github.com/{pr["repo"]}) | [{esc(pr["title"])}]({pr["url"]}) | {pr["merged"]} |')
+        parts.append("\n".join(rows))
+    if review:
+        rows = [f"**In review: {len(review)}**", "", "| Project | Pull request |", "|---|---|"]
+        for pr in review[:limit]:
+            rows.append(f'| [{pr["repo"]}](https://github.com/{pr["repo"]}) | [{esc(pr["title"])}]({pr["url"]}) |')
+        parts.append("\n".join(rows))
+    q = urllib.parse.quote(f"author:{USER} is:pr is:merged is:public -user:{USER}", safe="")
+    parts.append(f"[Every merged pull request, on GitHub →](https://github.com/search?q={q}&type=pullrequests)")
+    return "\n\n".join(parts)
 
 
 def inject(readme: Path, marker: str, content: str) -> None:
@@ -194,6 +208,7 @@ def external_prs() -> list[dict]:
             "title": it["title"],
             "url": it["html_url"],
             "state": "merged" if it["pull_request"].get("merged_at") else "open",
+            "merged": (it["pull_request"].get("merged_at") or "")[:10],
         })
     return prs
 

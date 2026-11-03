@@ -81,7 +81,7 @@
 <line x1="283.9" y1="179.7" x2="234.5" y2="127.1" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <line x1="234.5" y1="127.1" x2="236.8" y2="162.3" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <circle cx="210.0" cy="181.9" r="3.5" fill="#ffd479" class="tw"/>
-<circle cx="157.5" cy="145.3" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>kividbio/kividb#329: LangGraph compatibility: a harness, its results against KiviDB and Redis 8, and a docs page (open)</title></circle>
+<circle cx="157.5" cy="145.3" r="4.5" fill="#7ee787" class="tw" style="animation-delay:0.3s"><title>kividbio/kividb#329: LangGraph compatibility: a harness, its results against KiviDB and Redis 8, and a docs page (merged)</title></circle>
 <circle cx="283.9" cy="179.7" r="4.5" fill="#7ee787" class="tw" style="animation-delay:2.1s"><title>kividbio/kividb#325: LangChain compatibility: a harness, its results against KiviDB and Redis 8, and a docs page (merged)</title></circle>
 <circle cx="234.5" cy="127.1" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>kividbio/kividb#323: CONFIG SET latency-tracking-info-percentiles refuses what Redis refuses (open)</title></circle>
 <circle cx="236.8" cy="162.3" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>kividbio/kividb#318: Add SCRIPT HELP (open)</title></circle>
@@ -105,7 +105,7 @@
 <circle cx="778.9" cy="216.8" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>nrzz/claude-cost-guard#10: Suggest the nearest model when a budget model name matches nothing (open)</title></circle>
 <text x="770.0" y="293.5" font-size="11" fill="#c9d1d9" text-anchor="middle">claude-cost-guard</text>
 <text x="20" y="28" font-size="13" fill="#e6edf3">open source constellation</text>
-<text x="20" y="46" font-size="11" fill="#8b949e">3 merged · 7 open · 6 projects — one star per pull request</text>
+<text x="20" y="46" font-size="11" fill="#8b949e">4 merged · 6 open · 6 projects — one star per pull request</text>
 <circle cx="640" cy="338" r="4" fill="#7ee787"/><text x="650" y="342" font-size="11" fill="#8b949e">merged</text>
 <circle cx="720" cy="338" r="4" fill="none" stroke="#58a6ff" stroke-width="1.5"/><text x="730" y="342" font-size="11" fill="#8b949e">open</text>
 </svg>

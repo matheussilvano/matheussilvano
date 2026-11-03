@@ -37,13 +37,27 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 <summary><b>Latest contributions</b> (auto-updated)</summary>
 
 <!-- PRS:START -->
-| | Project | Pull request |
+**Merged: 4 in 3 projects**
+
+| Project | Pull request | Merged |
 |---|---|---|
-| 🟢 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [Use fullmatch for X-Request-ID validation](https://github.com/Terngi-AI/tergniai-multilang/pull/126) |
-| 🟢 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | [Suggest the nearest model when a budget model name matches nothing](https://github.com/nrzz/claude-cost-guard/pull/10) |
-| 🟢 | [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |
-| 🟢 | [meteor/meteor](https://github.com/meteor/meteor) | [Reject IPv4 numbers greater than 255](https://github.com/meteor/meteor/pull/14971) |
-| ✅ | [loopmark-opensource/loopmark-agent](https://github.com/loopmark-opensource/loopmark-agent) | [Replace deprecated datetime.utcnow() with timezone-aware UTC](https://github.com/loopmark-opensource/loopmark-agent/pull/57) |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/329) | 2026-11-03 |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [LangChain compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/325) | 2026-11-03 |
+| [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [Use fullmatch for X-Request-ID validation](https://github.com/Terngi-AI/tergniai-multilang/pull/126) | 2026-11-03 |
+| [loopmark-opensource/loopmark-agent](https://github.com/loopmark-opensource/loopmark-agent) | [Replace deprecated datetime.utcnow() with timezone-aware UTC](https://github.com/loopmark-opensource/loopmark-agent/pull/57) | 2026-11-03 |
+
+**In review: 6**
+
+| Project | Pull request |
+|---|---|
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [CONFIG SET latency-tracking-info-percentiles refuses what Redis refuses](https://github.com/kividbio/kividb/pull/323) |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [Add SCRIPT HELP](https://github.com/kividbio/kividb/pull/318) |
+| [kptdev/kpt](https://github.com/kptdev/kpt) | [Add --format json to kpt pkg tree](https://github.com/kptdev/kpt/pull/4847) |
+| [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | [Suggest the nearest model when a budget model name matches nothing](https://github.com/nrzz/claude-cost-guard/pull/10) |
+| [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |
+| [meteor/meteor](https://github.com/meteor/meteor) | [Reject IPv4 numbers greater than 255](https://github.com/meteor/meteor/pull/14971) |
+
+[Every merged pull request, on GitHub →](https://github.com/search?q=author%3Amatheussilvano%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3Amatheussilvano&type=pullrequests)
 <!-- PRS:END -->
 
 </details>
