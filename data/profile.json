@@ -1,0 +1,89 @@
+{
+ "chunks": [
+  {
+   "title": "Who is Matheus?",
+   "text": "Matheus Silvano Pereira is an AI Developer based in Florianópolis, Brazil. He builds applied AI products end to end: LLM orchestration, RAG pipelines, FastAPI services and production observability. He is an Information Systems student at UFSC (2024-2028).",
+   "tags": "who about summary bio introduction background"
+  },
+  {
+   "title": "Current job at Dígitro Tecnologia",
+   "text": "Since Feb/2026 he is an AI Developer at Dígitro Tecnologia (on-site, Florianópolis). He builds enterprise generative-AI solutions with LLMs and orchestration patterns (tools, routing, memory, fallback) to automate internal flows and raise operational efficiency. He started there as an AI developer intern (Apr/2025 to Jan/2026).",
+   "tags": "work job company current employer digitro experience role"
+  },
+  {
+   "title": "RAG and retrieval work",
+   "text": "He implemented end-to-end RAG pipelines: ingestion and normalization, chunking, embeddings, a vector store and re-ranking, to raise answer precision and reduce hallucinations in production. As an intern he also built a re-ranking evaluation pipeline with test datasets, metrics and technical reports to pick the most accurate retrieval models.",
+   "tags": "rag retrieval embeddings chunking rerank re-ranking vector hallucination search llm"
+  },
+  {
+   "title": "Telephony conversational bots",
+   "text": "At Dígitro he developed conversational bots for telephony, including call-transfer flows and emergency-call classification, using LLMs integrated with IVR (URA) systems to improve routing and response. He also built no-code-driven agents that generate IVR code and configuration with FastAPI and LangChain, cutting delivery time by about 2 days.",
+   "tags": "telephony voice phone bots ivr ura calls emergency agents langchain no-code"
+  },
+  {
+   "title": "LLM evaluation and observability",
+   "text": "He built an internal LLM evaluation framework (quality, cost and latency metrics, comparative tests of models, embeddings and re-rankers) to support data-driven architecture decisions. He also added observability to AI apps: structured logging, per-request tracing and latency/cost metrics.",
+   "tags": "evaluation eval observability metrics latency cost tracing logging monitoring benchmark"
+  },
+  {
+   "title": "APIs and backend",
+   "text": "He models and integrates services between LLMs and internal APIs using FastAPI (REST) with schemas, versioning and error handling. Backend stack: FastAPI, REST, Webhooks, JWT/OAuth2, OpenAI API, LLM API integration. Databases: PostgreSQL, Oracle (PL/SQL), MySQL, Redis, Qdrant, pgvector.",
+   "tags": "api backend fastapi rest database postgres redis qdrant pgvector oauth jwt sql python"
+  },
+  {
+   "title": "Smart Pricing (SaaS)",
+   "text": "Since Nov/2025 he works remotely as a full-stack and AI developer on Smart Pricing, a SaaS for vacation-rental hosts. He built pricing/occupancy/performance dashboards in React, a multi-tenant FastAPI REST API, pricing automations (unbooked-days and occupancy-gap rules), integrations with external APIs, ADR/occupancy/REVPAR metrics, alerts for negative reviews, and an AI proof of concept for automatic insights. The product serves portfolios of 30+ properties.",
+   "tags": "smart pricing saas react dashboard pricing startup full stack multi-tenant airbnb pricelabs"
+  },
+  {
+   "title": "Fonte (automations)",
+   "text": "From Feb/2026 to Apr/2026 he built automations and AI workflows for Fonte: an n8n workflow integrated with the WhatsApp Cloud API, OpenAI and Trello that turns group messages into structured, validated tasks, with Redis-based duplicate control, automatic deadlines and error handling.",
+   "tags": "fonte n8n whatsapp trello automation workflow redis openai"
+  },
+  {
+   "title": "Nexxera",
+   "text": "At Nexxera he started as an implementation apprentice (Jan/2022 to Dec/2023) and became implementation operator (Dec/2023 to Apr/2025), automating routines with Python and Shell Script and validating corporate data with SQL.",
+   "tags": "nexxera implementation apprentice automation shell python early career"
+  },
+  {
+   "title": "Mooose (essay grading platform)",
+   "text": "Mooose is an AI platform in production that grades ENEM essays with LLMs and RAG, giving criterion-by-criterion feedback. It has graded 1000+ essays. Stack: Python, FastAPI, Docker, RAG/LLMs, PostgreSQL, React and Vue front-end.",
+   "tags": "mooose enem essay grading education project product saas"
+  },
+  {
+   "title": "Other projects",
+   "text": "Real-time face recognition (Python, OpenCV, NumPy), a toxic-content detector (Python, scikit-learn, pandas, Streamlit) and Limpa CNPJ, a Chrome extension with 170+ active users.",
+   "tags": "projects face recognition opencv toxic nlp chrome extension limpa cnpj"
+  },
+  {
+   "title": "Skills and tools",
+   "text": "Languages: Python, SQL, JavaScript/TypeScript, Shell Script, Lua. AI and GenAI: LLMs, RAG, embeddings, prompt engineering, model evaluation, LangChain. DevOps: Docker/Compose, Linux, CI/CD, monitoring and logs, deploy on Render/Vercel. Tools: Git (GitHub/GitLab), Postman, Grafana, Jira, Scrum/Kanban.",
+   "tags": "skills stack tools technologies languages docker linux git langchain typescript"
+  },
+  {
+   "title": "Education and awards",
+   "text": "Bachelor's in Information Systems at UFSC (2024-2028, in progress), academic index 7.8/10. Certifications: Google AI Essentials, Databricks Generative AI Fundamentals, plus complementary AI/ML/MLOps/DevOps courses (Google, Databricks, AWS, USP, Hugging Face). Awards: OBMEP honorable mention (2019, 2022) and ONC silver medal (2022).",
+   "tags": "education university ufsc degree certification courses awards obmep onc study"
+  },
+  {
+   "title": "Languages spoken",
+   "text": "Portuguese (native), English (advanced for technical reading and writing, B2 conversation) and Spanish (intermediate, B1).",
+   "tags": "languages english portuguese spanish spoken"
+  },
+  {
+   "title": "Agile and teamwork",
+   "text": "At Dígitro he runs alignments with SCRUM as Scrum Master, prioritizing work and unblocking impediments to keep delivery cadence and stakeholder alignment. He documents technical work and supports product teams.",
+   "tags": "scrum agile team leadership kanban stakeholders communication"
+  },
+  {
+   "title": "Open source",
+   "text": "Matheus contributes to open source: merged work in loopmark-agent, and pull requests to Meteor (input validation), claude-cost-guard (typo suggestions) and tergniai-multilang (request-ID validation). See the constellation and table above for the live list.",
+   "tags": "open source contributions github pull requests meteor oss"
+  },
+  {
+   "title": "Contact",
+   "text": "Email: matheussilvano2005@gmail.com · LinkedIn: linkedin.com/in/matheussilvano · Site: matheussilvano.dev · Location: Florianópolis, Brazil.",
+   "tags": "contact email linkedin hire reach site location"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+name: Ask my resume
+description: Ask a question about my work. A bot answers in a few seconds from my resume.
+title: "ask: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Type your question in the **title** (keep the `ask:` prefix) and press *Submit*.
+        A small retrieval bot (no LLM, no API keys) answers from my resume and closes the issue.
+  - type: textarea
+    id: more
+    attributes:
+      label: More context (optional)
+      description: Only used if the title is empty.
