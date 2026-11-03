@@ -8,9 +8,44 @@
 
 </div>
 
-I build **applied AI products end to end**: LLM orchestration, RAG pipelines, FastAPI services, and the observability that keeps them honest in production. I work at Dígitro Tecnologia, ship SaaS on the side, and study Information Systems at UFSC.
+I build **applied AI products end to end**, and my main project right now is **[Mooose](https://github.com/matheussilvano/mooose)**, an open-source ENEM essay grader: LLM orchestration, RAG pipelines, FastAPI services, and the observability that keeps them honest in production. I work at Dígitro Tecnologia, ship SaaS on the side, and study Information Systems at UFSC.
 
 📍 Florianópolis, Brazil &nbsp;·&nbsp; 🎓 Information Systems @ UFSC (2024–2028) &nbsp;·&nbsp; 🗣️ Portuguese (native) · English (B2) · Spanish (B1)
+
+---
+
+## ⭐ Flagship project: Mooose
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/matheussilvano/mooose?style=for-the-badge&logo=github&label=stars)](https://github.com/matheussilvano/mooose)
+[![CI](https://img.shields.io/github/actions/workflow/status/matheussilvano/mooose/ci.yml?style=for-the-badge&label=CI)](https://github.com/matheussilvano/mooose/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=for-the-badge)](https://github.com/matheussilvano/mooose/blob/main/LICENSE)
+[![Project page](https://img.shields.io/badge/project%20page-mooose.matheussilvano.workers.dev-2347C5?style=for-the-badge)](https://mooose.matheussilvano.workers.dev)
+
+<a href="https://github.com/matheussilvano/mooose"><img src="https://raw.githubusercontent.com/matheussilvano/mooose/main/docs/assets/landing.jpg" alt="Mooose landing page" width="840"></a>
+
+</div>
+
+**[Mooose](https://github.com/matheussilvano/mooose) is the open-source ENEM essay grader I build in public.** ENEM is Brazil's national exam, and millions of students train essays with nobody to grade them. Mooose grades each of the five official competencies, explains how to improve, and runs on whatever LLM you bring: free OpenRouter models, Gemini, Groq, a local Ollama, OpenAI or Claude. The hosted version has graded **1,000+ essays**.
+
+What makes it interesting as an AI engineering project:
+
+- **LangGraph pipeline**: theme analysis, five specialist graders in parallel, a reviewer that can move a score by at most one level, deterministic calibration, then synthesis.
+- **LLM + rules, on purpose**: ENEM annulment rules, tangency caps and the Competency 5 score (computed from an agent/action/means/purpose checklist) are unit-tested Python, not model opinion.
+- **Self-consistency**: sample each competency N times and take the median, which steadies free and small models.
+- **Provider-agnostic**: bring-your-own-key API with SSE progress streaming; structured output that works without tool calling, so it runs on free and local models.
+- **Measured, not guessed**: offline tests with a scripted fake LLM (29 backend + 9 frontend tests, CI on every push), an eval harness, and prompt-injection hardening.
+- **Photo input**: handwriting read by a vision model (a free one worked), with local PaddleOCR as an option.
+
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/matheussilvano/mooose/main/docs/assets/corretor.jpg" alt="Grader screen"></td>
+    <td><img src="https://raw.githubusercontent.com/matheussilvano/mooose/main/docs/assets/resultado.jpg" alt="Result with per-competency scores"></td>
+  </tr>
+</table>
+
+[⭐ Star it](https://github.com/matheussilvano/mooose) &nbsp;·&nbsp; [🌐 Project page](https://mooose.matheussilvano.workers.dev) &nbsp;·&nbsp; [🧩 Good first issues](https://github.com/matheussilvano/mooose/issues?q=is%3Aopen+label%3A%22good+first+issue%22) &nbsp;·&nbsp; [💖 Sponsor](https://github.com/sponsors/matheussilvano)
 
 ---
 
@@ -116,7 +151,7 @@ No chatbot to sign up for. Click a question, press **Submit new issue**, and wit
 
 | Project | What it is | Stack |
 |---|---|---|
-| **[Mooose](https://github.com/matheussilvano/mooose)** | AI platform in production that grades ENEM essays criterion by criterion with LLMs and RAG. **1000+ essays graded.** | Python · FastAPI · RAG · PostgreSQL · React · Vue · Docker |
+| **[Mooose](https://github.com/matheussilvano/mooose)** ⭐ | Open-source ENEM essay grader: LangGraph pipeline with five specialist graders, rule-based calibration, bring-your-own LLM (free options included). **1,000+ essays graded** on the hosted version. | Python · FastAPI · LangGraph · LangChain · React · Docker |
 | **[Real-time face recognition](https://github.com/matheussilvano/real-time-face-recognitor)** | Local face detection and identification in real time. | Python · OpenCV · NumPy |
 | **[Toxic content detector](https://github.com/matheussilvano/toxic-content-detector)** | Comment classification pipeline with a simple UI for testing. | Python · scikit-learn · pandas · Streamlit |
 | **[Limpa CNPJ](https://github.com/matheussilvano/limpa-cnpj)** | Chrome extension with **170+ active users**. | JavaScript · HTML · CSS |
