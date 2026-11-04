@@ -72,21 +72,28 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 <summary><b>Latest contributions</b> (auto-updated)</summary>
 
 <!-- PRS:START -->
-**Merged: 4 in 3 projects**
+**Merged: 8 in 3 projects**
 
 | Project | Pull request | Merged |
 |---|---|---|
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: Redis vector store, docstore, index store and kv store](https://github.com/kividbio/kividb/pull/334) | 2026-11-04 |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [LangChain harness: remove the indexes it creates](https://github.com/kividbio/kividb/pull/330) | 2026-11-03 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/329) | 2026-11-03 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangChain compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/325) | 2026-11-03 |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [CONFIG SET latency-tracking-info-percentiles refuses what Redis refuses](https://github.com/kividbio/kividb/pull/323) | 2026-11-03 |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [Add SCRIPT HELP](https://github.com/kividbio/kividb/pull/318) | 2026-11-03 |
 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [Use fullmatch for X-Request-ID validation](https://github.com/Terngi-AI/tergniai-multilang/pull/126) | 2026-11-03 |
 | [loopmark-opensource/loopmark-agent](https://github.com/loopmark-opensource/loopmark-agent) | [Replace deprecated datetime.utcnow() with timezone-aware UTC](https://github.com/loopmark-opensource/loopmark-agent/pull/57) | 2026-11-03 |
 
-**In review: 6**
+**In review: 9**
 
 | Project | Pull request |
 |---|---|
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [CONFIG SET latency-tracking-info-percentiles refuses what Redis refuses](https://github.com/kividbio/kividb/pull/323) |
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [Add SCRIPT HELP](https://github.com/kividbio/kividb/pull/318) |
+| [danoszz/penthera](https://github.com/danoszz/penthera) | [fix(report): read the Markdown report version from package.json](https://github.com/danoszz/penthera/pull/244) |
+| [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag the whole environment sent over HTTP in SG-002](https://github.com/obielin/skillshield/pull/90) |
+| [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [feat(chat): N-ATLaS as a native chat provider, answering without the English round trip](https://github.com/Terngi-AI/tergniai-multilang/pull/135) |
+| [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag curl/wget piped into a shell in SG-006](https://github.com/obielin/skillshield/pull/89) |
+| [obielin/skillshield](https://github.com/obielin/skillshield) | [Fail folder scans on HIGH files and unreadable files](https://github.com/obielin/skillshield/pull/88) |
 | [kptdev/kpt](https://github.com/kptdev/kpt) | [Add --format json to kpt pkg tree](https://github.com/kptdev/kpt/pull/4847) |
 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | [Suggest the nearest model when a budget model name matches nothing](https://github.com/nrzz/claude-cost-guard/pull/10) |
 | [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |
