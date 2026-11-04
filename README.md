@@ -72,10 +72,13 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 <summary><b>Latest contributions</b> (auto-updated)</summary>
 
 <!-- PRS:START -->
-**Merged: 8 in 3 projects**
+**Merged: 11 in 3 projects**
 
 | Project | Pull request | Merged |
 |---|---|---|
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph harness: drop only this run's indexes](https://github.com/kividbio/kividb/pull/343) | 2026-11-04 |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [Mem0 harness: Redis vector store and the Memory API](https://github.com/kividbio/kividb/pull/342) | 2026-11-04 |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: drop only this run's indexes, and correct the report](https://github.com/kividbio/kividb/pull/341) | 2026-11-04 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: Redis vector store, docstore, index store and kv store](https://github.com/kividbio/kividb/pull/334) | 2026-11-04 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangChain harness: remove the indexes it creates](https://github.com/kividbio/kividb/pull/330) | 2026-11-03 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/329) | 2026-11-03 |
@@ -85,10 +88,15 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [Use fullmatch for X-Request-ID validation](https://github.com/Terngi-AI/tergniai-multilang/pull/126) | 2026-11-03 |
 | [loopmark-opensource/loopmark-agent](https://github.com/loopmark-opensource/loopmark-agent) | [Replace deprecated datetime.utcnow() with timezone-aware UTC](https://github.com/loopmark-opensource/loopmark-agent/pull/57) | 2026-11-03 |
 
-**In review: 9**
+**In review: 14**
 
 | Project | Pull request |
 |---|---|
+| [Snorlark/plop-ui](https://github.com/Snorlark/plop-ui) | [feat(react): add a name prop to Select and MultiSelect](https://github.com/Snorlark/plop-ui/pull/130) |
+| [RadioAstronomySoftwareGroup/pyuvdata](https://github.com/RadioAstronomySoftwareGroup/pyuvdata) | [List the antennas that are not in antenna_numbers in the UVData.check error](https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pull/1744) |
+| [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Read messages that follow the subscribe confirmation](https://github.com/redis/mcp-redis/pull/203) |
+| [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Keep one Redis client per decode_responses mode](https://github.com/redis/mcp-redis/pull/202) |
+| [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag Unicode tag characters and scan the text they hide](https://github.com/obielin/skillshield/pull/91) |
 | [danoszz/penthera](https://github.com/danoszz/penthera) | [fix(report): read the Markdown report version from package.json](https://github.com/danoszz/penthera/pull/244) |
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag the whole environment sent over HTTP in SG-002](https://github.com/obielin/skillshield/pull/90) |
 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [feat(chat): N-ATLaS as a native chat provider, answering without the English round trip](https://github.com/Terngi-AI/tergniai-multilang/pull/135) |
@@ -96,8 +104,6 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Fail folder scans on HIGH files and unreadable files](https://github.com/obielin/skillshield/pull/88) |
 | [kptdev/kpt](https://github.com/kptdev/kpt) | [Add --format json to kpt pkg tree](https://github.com/kptdev/kpt/pull/4847) |
 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | [Suggest the nearest model when a budget model name matches nothing](https://github.com/nrzz/claude-cost-guard/pull/10) |
-| [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |
-| [meteor/meteor](https://github.com/meteor/meteor) | [Reject IPv4 numbers greater than 255](https://github.com/meteor/meteor/pull/14971) |
 
 [Every merged pull request, on GitHub →](https://github.com/search?q=author%3Amatheussilvano%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3Amatheussilvano&type=pullrequests)
 <!-- PRS:END -->
