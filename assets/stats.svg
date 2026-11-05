@@ -7,13 +7,13 @@
   <rect class="bg" x=".5" y=".5" width="419" height="203" rx="8"/>
   <text class="t" x="24" y="32" font-size="16" font-weight="600">GitHub stats</text>
   <text class="m" x="24" y="62" font-size="14">Public repositories</text>
-  <text class="t" x="396" y="62" font-size="14" font-weight="600" text-anchor="end">55</text>
+  <text class="t" x="396" y="62" font-size="14" font-weight="600" text-anchor="end">59</text>
   <text class="m" x="24" y="92" font-size="14">Stars earned</text>
-  <text class="t" x="396" y="92" font-size="14" font-weight="600" text-anchor="end">4</text>
+  <text class="t" x="396" y="92" font-size="14" font-weight="600" text-anchor="end">6</text>
   <text class="m" x="24" y="122" font-size="14">Followers</text>
-  <text class="t" x="396" y="122" font-size="14" font-weight="600" text-anchor="end">28</text>
+  <text class="t" x="396" y="122" font-size="14" font-weight="600" text-anchor="end">30</text>
   <text class="m" x="24" y="152" font-size="14">Merged pull requests</text>
-  <text class="t" x="396" y="152" font-size="14" font-weight="600" text-anchor="end">29</text>
+  <text class="t" x="396" y="152" font-size="14" font-weight="600" text-anchor="end">34</text>
   <text class="m" x="24" y="182" font-size="14">Merged open source PRs</text>
-  <text class="t" x="396" y="182" font-size="14" font-weight="600" text-anchor="end">11 in 3 projects</text>
+  <text class="t" x="396" y="182" font-size="14" font-weight="600" text-anchor="end">14 in 6 projects</text>
 </svg>
