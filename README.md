@@ -49,6 +49,28 @@ What makes it interesting as an AI engineering project:
 
 ---
 
+## 🎓 Also building: moodle-academic-mcp
+
+<div align="center">
+
+[![Stars](https://img.shields.io/github/stars/matheussilvano/moodle-mcp?style=for-the-badge&logo=github&label=stars)](https://github.com/matheussilvano/moodle-mcp)
+[![CI](https://img.shields.io/github/actions/workflow/status/matheussilvano/moodle-mcp/ci.yml?style=for-the-badge&label=CI)](https://github.com/matheussilvano/moodle-mcp/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-22c55e?style=for-the-badge)](https://github.com/matheussilvano/moodle-mcp/blob/main/LICENSE)
+[![Good first issues](https://img.shields.io/github/issues/matheussilvano/moodle-mcp/good%20first%20issue?style=for-the-badge&label=good%20first%20issues&color=7057ff)](https://github.com/matheussilvano/moodle-mcp/labels/good%20first%20issue)
+
+</div>
+
+**[moodle-academic-mcp](https://github.com/matheussilvano/moodle-mcp) is an MCP server that connects a student's own Moodle to Claude Code, Codex and ChatGPT.** Ask "what is due next week?", "how many classes can I still miss?" or "what do I need on the P2 to pass?" and get answers from *your* data, with *your* token and *your* model.
+
+- **55 tools from one operation registry**: the same registry serves MCP (stdio + Streamable HTTP) and REST/OpenAPI for GPT Actions.
+- **Exact math, not model guesses**: attendance and grade simulation use `Fraction`/`Decimal`; a grade not posted yet is never treated as zero.
+- **Security first**: tokens are redacted from logs and results, SSRF is blocked, and text from PDFs and forums is treated as untrusted data, never as instructions.
+- **Honest about validation**: a public feature matrix says what ran on a real Moodle and what only ran against the mock.
+
+[⭐ Star it](https://github.com/matheussilvano/moodle-mcp) &nbsp;·&nbsp; [🧩 Good first issues](https://github.com/matheussilvano/moodle-mcp/labels/good%20first%20issue) &nbsp;·&nbsp; [🗺️ Roadmap](https://github.com/matheussilvano/moodle-mcp/blob/main/docs/roadmap.md) &nbsp;·&nbsp; [🏫 Add your university](https://github.com/matheussilvano/moodle-mcp/blob/main/docs/add-institution.md)
+
+---
+
 ## 📊 By the numbers
 
 <table>
@@ -166,6 +188,7 @@ No chatbot to sign up for. Click a question, press **Submit new issue**, and wit
 | Project | What it is | Stack |
 |---|---|---|
 | **[Mooose](https://github.com/matheussilvano/mooose)** ⭐ | Open-source ENEM essay grader: LangGraph pipeline with five specialist graders, rule-based calibration, bring-your-own LLM (free options included). **1,000+ essays graded** on the hosted version. | Python · FastAPI · LangGraph · LangChain · React · Docker |
+| **[moodle-academic-mcp](https://github.com/matheussilvano/moodle-mcp)** | MCP server that plugs a student's own Moodle into Claude Code, Codex and ChatGPT: deadlines, delivery with read-back evidence, exact attendance and grade math. Open to contributors. | Python · MCP · FastAPI · SQLite/PostgreSQL · Docker |
 | **[Real-time face recognition](https://github.com/matheussilvano/real-time-face-recognitor)** | Local face detection and identification in real time. | Python · OpenCV · NumPy |
 | **[Toxic content detector](https://github.com/matheussilvano/toxic-content-detector)** | Comment classification pipeline with a simple UI for testing. | Python · scikit-learn · pandas · Streamlit |
 | **[Limpa CNPJ](https://github.com/matheussilvano/limpa-cnpj)** | Chrome extension with **170+ active users**. | JavaScript · HTML · CSS |

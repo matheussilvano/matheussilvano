@@ -51,6 +51,11 @@
    "tags": "mooose enem essay grading education project product saas"
   },
   {
+   "title": "moodle-academic-mcp (open-source MCP server)",
+   "text": "moodle-academic-mcp is an open-source, community MCP server that connects a student's own Moodle account to Claude Code, Codex and ChatGPT. It exposes 55 tools (deadlines, assignment delivery with read-back evidence, attendance and grade simulation with exact Fraction/Decimal math, materials with page references) from one operation registry served over MCP and REST. Security-focused (token redaction, SSRF protection, untrusted-content handling). Stack: Python, FastAPI, SQLite/PostgreSQL, Docker. It is open to contributors with labelled good first issues.",
+   "tags": "moodle mcp model context protocol claude code codex chatgpt open source student python fastapi"
+  },
+  {
    "title": "Other projects",
    "text": "Real-time face recognition (Python, OpenCV, NumPy), a toxic-content detector (Python, scikit-learn, pandas, Streamlit) and Limpa CNPJ, a Chrome extension with 170+ active users.",
    "tags": "projects face recognition opencv toxic nlp chrome extension limpa cnpj"
