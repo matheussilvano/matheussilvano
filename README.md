@@ -3,7 +3,7 @@
 <img src="assets/header.svg" alt="Terminal: Matheus Silvano, AI Developer, building LLM and RAG systems" width="840">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matheussilvano/)
-[![Website](https://img.shields.io/badge/matheussilvano.dev-4A90E2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://matheussilvano.dev)
+[![Website](https://img.shields.io/badge/Portfolio-4A90E2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://matheussilvano.github.io/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:matheussilvano2005@gmail.com)
 
 </div>
