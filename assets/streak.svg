@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="150" viewBox="0 0 840 150" role="img" aria-label="Contribution streak for matheussilvano">
+  <style>
+    .bg{fill:#ffffff;stroke:#d0d7de}.t{fill:#1f2328}.m{fill:#656d76}.trk{fill:#eaeef2}
+    @media (prefers-color-scheme: dark){.bg{fill:#0d1117;stroke:#30363d}.t{fill:#e6edf3}.m{fill:#8b949e}.trk{fill:#21262d}}
+    text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+  </style>
+  <style>.f{fill:#d1242f}@media (prefers-color-scheme: dark){.f{fill:#ff7b72}}</style>
+  <rect class="bg" x=".5" y=".5" width="839" height="149" rx="8"/>
+  <text class="t" x="140" y="62" font-size="36" font-weight="700" text-anchor="middle">1,717</text>
+  <text class="t" x="140" y="92" font-size="14" font-weight="600" text-anchor="middle">Total contributions</text>
+  <text class="m" x="140" y="114" font-size="12" text-anchor="middle">Oct 8, 2022 – present</text>
+  <rect class="trk" x="279.5" y="28" width="1" height="94"/>
+  <text class="t" x="420" y="62" font-size="36" font-weight="700" text-anchor="middle">5</text>
+  <text class="t" x="420" y="92" font-size="14" font-weight="600" text-anchor="middle">Current streak (days)</text>
+  <text class="m" x="420" y="114" font-size="12" text-anchor="middle">Nov 3 – Nov 7, 2026</text>
+  <rect class="trk" x="559.5" y="28" width="1" height="94"/>
+  <text class="t" x="700" y="62" font-size="36" font-weight="700" text-anchor="middle">9</text>
+  <text class="t" x="700" y="92" font-size="14" font-weight="600" text-anchor="middle">Longest streak (days)</text>
+  <text class="m" x="700" y="114" font-size="12" text-anchor="middle">Nov 8 – Nov 16, 2025</text>
+</svg>

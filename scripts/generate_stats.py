@@ -4,6 +4,7 @@
 Reads public data from the GitHub REST API and writes:
   assets/stats.svg          - headline numbers
   assets/top-languages.svg  - language share by bytes across own, non-fork repos
+  assets/streak.svg         - total contributions, current and longest streak
 
 Usage: GITHUB_TOKEN=... python scripts/generate_stats.py [username]
 """
@@ -15,6 +16,7 @@ import os
 import sys
 import urllib.parse
 import urllib.request
+from datetime import date, datetime, timedelta, timezone
 from collections import Counter
 from pathlib import Path
 
@@ -213,6 +215,77 @@ def external_prs() -> list[dict]:
     return prs
 
 
+def contribution_days() -> dict[date, int]:
+    """Daily contribution counts since the account was created (GraphQL, one query per year)."""
+    def gql(query: str) -> dict:
+        req = urllib.request.Request("https://api.github.com/graphql", data=json.dumps({"query": query}).encode(),
+                                     headers={"Authorization": f"Bearer {TOKEN}", "User-Agent": "profile-stats"})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            body = json.load(resp)
+        if "data" not in body:
+            raise SystemExit(f"GraphQL error: {body}")
+        return body["data"]["user"]
+
+    created = datetime.fromisoformat(gql(f'{{user(login:"{USER}"){{createdAt}}}}')["createdAt"].replace("Z", "+00:00"))
+    now = datetime.now(timezone.utc)
+    days: dict[date, int] = {}
+    for year in range(created.year, now.year + 1):
+        start = max(created, datetime(year, 1, 1, tzinfo=timezone.utc))
+        end = min(now, datetime(year, 12, 31, 23, 59, 59, tzinfo=timezone.utc))
+        cal = gql(f'{{user(login:"{USER}"){{contributionsCollection(from:"{start:%Y-%m-%dT%H:%M:%SZ}",to:"{end:%Y-%m-%dT%H:%M:%SZ}")'
+                  '{contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}')["contributionsCollection"]["contributionCalendar"]
+        for week in cal["weeks"]:
+            for d in week["contributionDays"]:
+                days[date.fromisoformat(d["date"])] = d["contributionCount"]
+    return days
+
+
+def streaks(days: dict[date, int]) -> dict:
+    """Current and longest runs of consecutive days with at least one contribution."""
+    active = sorted(d for d, n in days.items() if n > 0)
+    longest, run = (0, None, None), None
+    for d in active:
+        run = (run[0], d) if run and (d - run[1]).days == 1 else (d, d)
+        length = (run[1] - run[0]).days + 1
+        if length > longest[0]:
+            longest = (length, run[0], run[1])
+    today = datetime.now(timezone.utc).date()
+    cur = (0, None, None)
+    # A streak is still alive if the last contribution was today or yesterday.
+    if active and (today - active[-1]).days <= 1:
+        end, start = active[-1], active[-1]
+        while start - timedelta(days=1) in days and days[start - timedelta(days=1)] > 0:
+            start -= timedelta(days=1)
+        cur = ((end - start).days + 1, start, end)
+    return {"total": sum(days.values()), "current": cur, "longest": longest, "since": min(days) if days else today}
+
+
+def streak_svg(st: dict) -> str:
+    w, h = 840, 150
+
+    def span(r) -> str:
+        return "no active streak" if not r[1] else f"{r[1]:%b %-d, %Y}" if r[1] == r[2] else f"{r[1]:%b %-d} – {r[2]:%b %-d, %Y}"
+
+    cols = [
+        (st["total"], "Total contributions", f"{st['since']:%b %-d, %Y} – present", False),
+        (st["current"][0], "Current streak (days)", span(st["current"]), True),
+        (st["longest"][0], "Longest streak (days)", span(st["longest"]), False),
+    ]
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" '
+           f'aria-label="Contribution streak for {USER}">{STYLE}',
+           '  <style>.f{fill:#d1242f}@media (prefers-color-scheme: dark){.f{fill:#ff7b72}}</style>',
+           f'  <rect class="bg" x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="8"/>']
+    for i, (value, label, sub, flame) in enumerate(cols):
+        cx = w * (2 * i + 1) / 6
+        if i:
+            out.append(f'  <rect class="trk" x="{w * i / 3 - .5:.1f}" y="28" width="1" height="{h - 56}"/>')
+        out.append(f'  <text class="t" x="{cx:.0f}" y="62" font-size="36" font-weight="700" text-anchor="middle">{value:,}</text>')
+        out.append(f'  <text class="t" x="{cx:.0f}" y="92" font-size="14" font-weight="600" text-anchor="middle">{label}</text>')
+        out.append(f'  <text class="m" x="{cx:.0f}" y="114" font-size="12" text-anchor="middle">{esc(sub)}</text>')
+    out.append("</svg>\n")
+    return "\n".join(out)
+
+
 def main() -> None:
     OUT.mkdir(exist_ok=True)
     profile = api(f"/users/{USER}")
@@ -247,6 +320,10 @@ def main() -> None:
     (OUT / "stats.svg").write_text(stats_svg(items), encoding="utf-8")
     (OUT / "top-languages.svg").write_text(languages_svg(shares), encoding="utf-8")
     (OUT / "constellation.svg").write_text(constellation_svg(prs), encoding="utf-8")
+    if TOKEN:  # the GraphQL API needs a token; skip (keep the old SVG) when run without one
+        st = streaks(contribution_days())
+        (OUT / "streak.svg").write_text(streak_svg(st), encoding="utf-8")
+        print("streak:", st)
     inject(OUT.parent / "README.md", "PRS", pr_table(prs))
     print("prs:", [(p["repo"], p["number"], p["state"]) for p in prs])
     print("stats:", items)

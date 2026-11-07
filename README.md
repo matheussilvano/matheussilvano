@@ -73,6 +73,12 @@ What makes it interesting as an AI engineering project:
 
 ## 📊 By the numbers
 
+<div align="center">
+  <img src="assets/streak.svg" alt="Contribution streak: total contributions, current streak and longest streak" width="840">
+</div>
+
+<br>
+
 <table>
   <tr>
     <td><img src="assets/stats.svg" alt="GitHub stats" width="400"></td>
