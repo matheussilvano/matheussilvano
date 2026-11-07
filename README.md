@@ -111,7 +111,7 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [CONFIG SET latency-tracking-info-percentiles refuses what Redis refuses](https://github.com/kividbio/kividb/pull/323) | 2026-11-03 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [Add SCRIPT HELP](https://github.com/kividbio/kividb/pull/318) | 2026-11-03 |
 
-**In review: 15**
+**In review: 14**
 
 | Project | Pull request |
 |---|---|
@@ -125,8 +125,8 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag the whole environment sent over HTTP in SG-002](https://github.com/obielin/skillshield/pull/90) |
 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [feat(chat): N-ATLaS as a native chat provider, answering without the English round trip](https://github.com/Terngi-AI/tergniai-multilang/pull/135) |
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag curl/wget piped into a shell in SG-006](https://github.com/obielin/skillshield/pull/89) |
-| [obielin/skillshield](https://github.com/obielin/skillshield) | [Fail folder scans on HIGH files and unreadable files](https://github.com/obielin/skillshield/pull/88) |
 | [kptdev/kpt](https://github.com/kptdev/kpt) | [Add --format json to kpt pkg tree](https://github.com/kptdev/kpt/pull/4847) |
+| [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | [Suggest the nearest model when a budget model name matches nothing](https://github.com/nrzz/claude-cost-guard/pull/10) |
 
 [Every merged pull request, on GitHub →](https://github.com/search?q=author%3Amatheussilvano%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3Amatheussilvano&type=pullrequests)
 <!-- PRS:END -->
