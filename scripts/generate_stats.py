@@ -260,28 +260,47 @@ def streaks(days: dict[date, int]) -> dict:
     return {"total": sum(days.values()), "current": cur, "longest": longest, "since": min(days) if days else today}
 
 
+FLAME_OUTER = "M12 2C12 2 5 8.5 5 14.5a7 7 0 0 0 14 0c0-3.5-2-6-3.5-7.5 0 2.5-1 3.5-2 3.5C13.5 7 12 2 12 2z"
+FLAME_INNER = "M12 21a3.5 3.5 0 0 1-3.5-3.5c0-2 2-3.5 3.5-5.5 1.5 2 3.5 3.5 3.5 5.5A3.5 3.5 0 0 1 12 21z"
+STAR = "M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.5 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"
+
+
 def streak_svg(st: dict) -> str:
-    w, h = 840, 150
+    w, h = 840, 172
 
     def span(r) -> str:
         return "no active streak" if not r[1] else f"{r[1]:%b %-d, %Y}" if r[1] == r[2] else f"{r[1]:%b %-d} – {r[2]:%b %-d, %Y}"
 
+    # (value, label, sub, icon): icon is "star", "flame" (alive, flickers) or "ember" (a past record)
     cols = [
-        (st["total"], "Total contributions", f"{st['since']:%b %-d, %Y} – present", False),
-        (st["current"][0], "Current streak (days)", span(st["current"]), True),
-        (st["longest"][0], "Longest streak (days)", span(st["longest"]), False),
+        (st["total"], "Total contributions", f"{st['since']:%b %-d, %Y} – present", "star"),
+        (st["current"][0], "Current streak (days)", span(st["current"]), "flame" if st["current"][0] else "out"),
+        (st["longest"][0], "Longest streak (days)", span(st["longest"]), "ember"),
     ]
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" '
            f'aria-label="Contribution streak for {USER}">{STYLE}',
-           '  <style>.f{fill:#d1242f}@media (prefers-color-scheme: dark){.f{fill:#ff7b72}}</style>',
+           "  <style>.fo{fill:#fb8500}.fi{fill:#ffd166}.eo{fill:#c2410c;opacity:.75}.ei{fill:#f59e0b;opacity:.75}"
+           ".so{fill:#e3b341}.xo{fill:#8b949e;opacity:.5}"
+           ".fl{animation:fl 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}"
+           "@keyframes fl{0%,100%{transform:scale(1,1)}35%{transform:scale(.94,1.07)}70%{transform:scale(1.04,.96)}}"
+           "@media (prefers-reduced-motion: reduce){.fl{animation:none}}</style>",
            f'  <rect class="bg" x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="8"/>']
-    for i, (value, label, sub, flame) in enumerate(cols):
+    for i, (value, label, sub, icon) in enumerate(cols):
         cx = w * (2 * i + 1) / 6
         if i:
-            out.append(f'  <rect class="trk" x="{w * i / 3 - .5:.1f}" y="28" width="1" height="{h - 56}"/>')
-        out.append(f'  <text class="t" x="{cx:.0f}" y="62" font-size="36" font-weight="700" text-anchor="middle">{value:,}</text>')
-        out.append(f'  <text class="t" x="{cx:.0f}" y="92" font-size="14" font-weight="600" text-anchor="middle">{label}</text>')
-        out.append(f'  <text class="m" x="{cx:.0f}" y="114" font-size="12" text-anchor="middle">{esc(sub)}</text>')
+            out.append(f'  <rect class="trk" x="{w * i / 3 - .5:.1f}" y="30" width="1" height="{h - 60}"/>')
+        g = f'<g transform="translate({cx - 15:.1f} 16) scale(1.25)">'
+        if icon == "star":
+            out.append(f'  {g}<path class="so" d="{STAR}"/></g>')
+        elif icon == "out":
+            out.append(f'  {g}<path class="xo" d="{FLAME_OUTER}"/></g>')
+        else:
+            o, n = ("fo", "fi") if icon == "flame" else ("eo", "ei")
+            anim = ' class="fl"' if icon == "flame" else ""
+            out.append(f'  {g}<g{anim}><path class="{o}" d="{FLAME_OUTER}"/><path class="{n}" d="{FLAME_INNER}"/></g></g>')
+        out.append(f'  <text class="t" x="{cx:.0f}" y="84" font-size="36" font-weight="700" text-anchor="middle">{value:,}</text>')
+        out.append(f'  <text class="t" x="{cx:.0f}" y="114" font-size="14" font-weight="600" text-anchor="middle">{label}</text>')
+        out.append(f'  <text class="m" x="{cx:.0f}" y="136" font-size="12" text-anchor="middle">{esc(sub)}</text>')
     out.append("</svg>\n")
     return "\n".join(out)
 
