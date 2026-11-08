@@ -7,7 +7,7 @@
   <style>.fo{fill:#fb8500}.fi{fill:#ffd166}.eo{fill:#c2410c;opacity:.75}.ei{fill:#f59e0b;opacity:.75}.so{fill:#e3b341}.xo{fill:#8b949e;opacity:.5}.fl{animation:fl 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}@keyframes fl{0%,100%{transform:scale(1,1)}35%{transform:scale(.94,1.07)}70%{transform:scale(1.04,.96)}}@media (prefers-reduced-motion: reduce){.fl{animation:none}}</style>
   <rect class="bg" x=".5" y=".5" width="839" height="171" rx="8"/>
   <g transform="translate(125.0 16) scale(1.25)"><path class="so" d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.5 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></g>
-  <text class="t" x="140" y="84" font-size="36" font-weight="700" text-anchor="middle">1,718</text>
+  <text class="t" x="140" y="84" font-size="36" font-weight="700" text-anchor="middle">1,722</text>
   <text class="t" x="140" y="114" font-size="14" font-weight="600" text-anchor="middle">Total contributions</text>
   <text class="m" x="140" y="136" font-size="12" text-anchor="middle">Oct 8, 2022 – present</text>
   <rect class="trk" x="279.5" y="30" width="1" height="112"/>
