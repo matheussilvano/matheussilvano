@@ -13,7 +13,7 @@
   <text class="m" x="24" y="122" font-size="14">Followers</text>
   <text class="t" x="396" y="122" font-size="14" font-weight="600" text-anchor="end">31</text>
   <text class="m" x="24" y="152" font-size="14">Merged pull requests</text>
-  <text class="t" x="396" y="152" font-size="14" font-weight="600" text-anchor="end">34</text>
+  <text class="t" x="396" y="152" font-size="14" font-weight="600" text-anchor="end">35</text>
   <text class="m" x="24" y="182" font-size="14">Merged open source PRs</text>
-  <text class="t" x="396" y="182" font-size="14" font-weight="600" text-anchor="end">14 in 6 projects</text>
+  <text class="t" x="396" y="182" font-size="14" font-weight="600" text-anchor="end">15 in 6 projects</text>
 </svg>

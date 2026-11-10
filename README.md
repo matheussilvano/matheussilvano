@@ -100,10 +100,11 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 <summary><b>Latest contributions</b> (auto-updated)</summary>
 
 <!-- PRS:START -->
-**Merged: 14 in 6 projects**
+**Merged: 15 in 6 projects**
 
 | Project | Pull request | Merged |
 |---|---|---|
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [INFO commandstats counts WATCH, UNWATCH, HELLO, DISCARD, RESET and AUTH (#388)](https://github.com/kividbio/kividb/pull/533) | 2026-11-09 |
 | [voyager-browser/voyager](https://github.com/voyager-browser/voyager) | [feat(shortcuts): focus the address bar with Alt+D](https://github.com/voyager-browser/voyager/pull/95) | 2026-11-04 |
 | [Snorlark/plop-ui](https://github.com/Snorlark/plop-ui) | [feat(react): add a name prop to Select and MultiSelect](https://github.com/Snorlark/plop-ui/pull/130) | 2026-11-05 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph harness: drop only this run's indexes](https://github.com/kividbio/kividb/pull/343) | 2026-11-04 |
@@ -115,16 +116,15 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/329) | 2026-11-03 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangChain compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/325) | 2026-11-03 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [CONFIG SET latency-tracking-info-percentiles refuses what Redis refuses](https://github.com/kividbio/kividb/pull/323) | 2026-11-03 |
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [Add SCRIPT HELP](https://github.com/kividbio/kividb/pull/318) | 2026-11-03 |
 
 **In review: 16**
 
 | Project | Pull request |
 |---|---|
+| [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tokenizers): keep the bundled tiktoken rank files byte-for-byte](https://github.com/BerriAI/litellm/pull/50779) |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [INFO commandstats counts WAIT and WAITAOF, and times the connection commands (#388)](https://github.com/kividbio/kividb/pull/568) |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [HELLO says mode: cluster on a node in cluster mode (#502)](https://github.com/kividbio/kividb/pull/534) |
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [INFO commandstats counts WATCH, UNWATCH, HELLO, DISCARD, RESET and AUTH (#388)](https://github.com/kividbio/kividb/pull/533) |
 | [langgenius/dify](https://github.com/langgenius/dify) | [refactor(api): use explicit sessions in ApiToolManageService](https://github.com/langgenius/dify/pull/45587) |
-| [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(complexity_router): give Claude Code subagents their own tier pin](https://github.com/BerriAI/litellm/pull/50108) |
 | [scylladb/scylla-rust-driver](https://github.com/scylladb/scylla-rust-driver) | [docs: add a chapter and an example for CachingSession](https://github.com/scylladb/scylla-rust-driver/pull/2021) |
 | [RadioAstronomySoftwareGroup/pyuvdata](https://github.com/RadioAstronomySoftwareGroup/pyuvdata) | [List the antennas that are not in antenna_numbers in the UVData.check error](https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pull/1744) |
 | [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Read messages that follow the subscribe confirmation](https://github.com/redis/mcp-redis/pull/203) |
