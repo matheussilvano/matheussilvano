@@ -122,7 +122,7 @@
 <text x="308.0" y="293.9" font-size="11" fill="#c9d1d9" text-anchor="middle">kividb</text>
 <line x1="364.0" y1="170.3" x2="334.3" y2="166.3" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <circle cx="364.0" cy="170.3" r="3.5" fill="#ffd479" class="tw"/>
-<circle cx="334.3" cy="166.3" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>kptdev/kpt#4847: Add --format json to kpt pkg tree (open)</title></circle>
+<circle cx="334.3" cy="166.3" r="4.5" fill="#7ee787" class="tw" style="animation-delay:1.3s"><title>kptdev/kpt#4847: Add --format json to kpt pkg tree (merged)</title></circle>
 <text x="364.0" y="282.3" font-size="11" fill="#c9d1d9" text-anchor="middle">kpt</text>
 <line x1="420.0" y1="218.9" x2="442.0" y2="234.2" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <circle cx="420.0" cy="218.9" r="3.5" fill="#ffd479" class="tw"/>
@@ -146,8 +146,8 @@
 <line x1="614.6" y1="190.1" x2="634.8" y2="204.2" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <line x1="634.8" y1="204.2" x2="641.0" y2="159.0" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <circle cx="644.0" cy="182.4" r="3.5" fill="#ffd479" class="tw"/>
-<circle cx="614.6" cy="190.1" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>obielin/skillshield#91: Flag Unicode tag characters and scan the text they hide (open)</title></circle>
-<circle cx="634.8" cy="204.2" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>obielin/skillshield#90: Flag the whole environment sent over HTTP in SG-002 (open)</title></circle>
+<circle cx="614.6" cy="190.1" r="4.5" fill="#7ee787" class="tw" style="animation-delay:1.0s"><title>obielin/skillshield#91: Flag Unicode tag characters and scan the text they hide (merged)</title></circle>
+<circle cx="634.8" cy="204.2" r="4.5" fill="#7ee787" class="tw" style="animation-delay:1.7s"><title>obielin/skillshield#90: Flag the whole environment sent over HTTP in SG-002 (merged)</title></circle>
 <circle cx="641.0" cy="159.0" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>obielin/skillshield#89: Flag curl/wget piped into a shell in SG-006 (open)</title></circle>
 <text x="644.0" y="294.4" font-size="11" fill="#c9d1d9" text-anchor="middle">skillshield</text>
 <line x1="700.0" y1="214.8" x2="727.7" y2="204.4" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
@@ -165,7 +165,7 @@
 <circle cx="789.8" cy="130.9" r="4.5" fill="#7ee787" class="tw" style="animation-delay:2.6s"><title>voyager-browser/voyager#95: feat(shortcuts): focus the address bar with Alt+D (merged)</title></circle>
 <text x="812.0" y="257.3" font-size="11" fill="#c9d1d9" text-anchor="middle">voyager</text>
 <text x="20" y="28" font-size="13" fill="#e6edf3">open source constellation</text>
-<text x="20" y="46" font-size="11" fill="#8b949e">15 merged · 16 open · 15 projects — one star per pull request</text>
+<text x="20" y="46" font-size="11" fill="#8b949e">18 merged · 13 open · 15 projects — one star per pull request</text>
 <circle cx="640" cy="338" r="4" fill="#7ee787"/><text x="650" y="342" font-size="11" fill="#8b949e">merged</text>
 <circle cx="720" cy="338" r="4" fill="none" stroke="#58a6ff" stroke-width="1.5"/><text x="730" y="342" font-size="11" fill="#8b949e">open</text>
 </svg>
