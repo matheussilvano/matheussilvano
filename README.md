@@ -100,10 +100,12 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 <summary><b>Latest contributions</b> (auto-updated)</summary>
 
 <!-- PRS:START -->
-**Merged: 18 in 8 projects**
+**Merged: 20 in 8 projects**
 
 | Project | Pull request | Merged |
 |---|---|---|
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [INFO commandstats counts WAIT and WAITAOF, and times the connection commands (#388)](https://github.com/kividbio/kividb/pull/568) | 2026-11-15 |
+| [kividbio/kividb](https://github.com/kividbio/kividb) | [HELLO says mode: cluster on a node in cluster mode (#502)](https://github.com/kividbio/kividb/pull/534) | 2026-11-15 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [INFO commandstats counts WATCH, UNWATCH, HELLO, DISCARD, RESET and AUTH (#388)](https://github.com/kividbio/kividb/pull/533) | 2026-11-09 |
 | [voyager-browser/voyager](https://github.com/voyager-browser/voyager) | [feat(shortcuts): focus the address bar with Alt+D](https://github.com/voyager-browser/voyager/pull/95) | 2026-11-04 |
 | [Snorlark/plop-ui](https://github.com/Snorlark/plop-ui) | [feat(react): add a name prop to Select and MultiSelect](https://github.com/Snorlark/plop-ui/pull/130) | 2026-11-05 |
@@ -114,16 +116,12 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: Redis vector store, docstore, index store and kv store](https://github.com/kividbio/kividb/pull/334) | 2026-11-04 |
 | [danoszz/penthera](https://github.com/danoszz/penthera) | [fix(report): read the Markdown report version from package.json](https://github.com/danoszz/penthera/pull/244) | 2026-11-04 |
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag the whole environment sent over HTTP in SG-002](https://github.com/obielin/skillshield/pull/90) | 2026-11-10 |
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [LangChain harness: remove the indexes it creates](https://github.com/kividbio/kividb/pull/330) | 2026-11-03 |
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph compatibility: a harness, its results against KiviDB and Redis 8, and a docs page](https://github.com/kividbio/kividb/pull/329) | 2026-11-03 |
 
-**In review: 13**
+**In review: 11**
 
 | Project | Pull request |
 |---|---|
 | [BerriAI/litellm](https://github.com/BerriAI/litellm) | [fix(tokenizers): keep the bundled tiktoken rank files byte-for-byte](https://github.com/BerriAI/litellm/pull/50779) |
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [INFO commandstats counts WAIT and WAITAOF, and times the connection commands (#388)](https://github.com/kividbio/kividb/pull/568) |
-| [kividbio/kividb](https://github.com/kividbio/kividb) | [HELLO says mode: cluster on a node in cluster mode (#502)](https://github.com/kividbio/kividb/pull/534) |
 | [langgenius/dify](https://github.com/langgenius/dify) | [refactor(api): use explicit sessions in ApiToolManageService](https://github.com/langgenius/dify/pull/45587) |
 | [scylladb/scylla-rust-driver](https://github.com/scylladb/scylla-rust-driver) | [docs: add a chapter and an example for CachingSession](https://github.com/scylladb/scylla-rust-driver/pull/2021) |
 | [RadioAstronomySoftwareGroup/pyuvdata](https://github.com/RadioAstronomySoftwareGroup/pyuvdata) | [List the antennas that are not in antenna_numbers in the UVData.check error](https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pull/1744) |
@@ -133,6 +131,7 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag curl/wget piped into a shell in SG-006](https://github.com/obielin/skillshield/pull/89) |
 | [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | [Suggest the nearest model when a budget model name matches nothing](https://github.com/nrzz/claude-cost-guard/pull/10) |
 | [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |
+| [meteor/meteor](https://github.com/meteor/meteor) | [Reject IPv4 numbers greater than 255](https://github.com/meteor/meteor/pull/14971) |
 
 [Every merged pull request, on GitHub →](https://github.com/search?q=author%3Amatheussilvano%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3Amatheussilvano&type=pullrequests)
 <!-- PRS:END -->
