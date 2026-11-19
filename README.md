@@ -100,7 +100,7 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 <summary><b>Latest contributions</b> (auto-updated)</summary>
 
 <!-- PRS:START -->
-**Merged: 20 in 8 projects**
+**Merged: 21 in 9 projects**
 
 | Project | Pull request | Merged |
 |---|---|---|
@@ -117,7 +117,7 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [danoszz/penthera](https://github.com/danoszz/penthera) | [fix(report): read the Markdown report version from package.json](https://github.com/danoszz/penthera/pull/244) | 2026-11-04 |
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag the whole environment sent over HTTP in SG-002](https://github.com/obielin/skillshield/pull/90) | 2026-11-10 |
 
-**In review: 11**
+**In review: 10**
 
 | Project | Pull request |
 |---|---|
@@ -129,7 +129,6 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Keep one Redis client per decode_responses mode](https://github.com/redis/mcp-redis/pull/202) |
 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [feat(chat): N-ATLaS as a native chat provider, answering without the English round trip](https://github.com/Terngi-AI/tergniai-multilang/pull/135) |
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag curl/wget piped into a shell in SG-006](https://github.com/obielin/skillshield/pull/89) |
-| [nrzz/claude-cost-guard](https://github.com/nrzz/claude-cost-guard) | [Suggest the nearest model when a budget model name matches nothing](https://github.com/nrzz/claude-cost-guard/pull/10) |
 | [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |
 | [meteor/meteor](https://github.com/meteor/meteor) | [Reject IPv4 numbers greater than 255](https://github.com/meteor/meteor/pull/14971) |
 
