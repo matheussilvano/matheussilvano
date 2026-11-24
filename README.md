@@ -95,7 +95,7 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 <summary><b>Latest contributions</b> (auto-updated)</summary>
 
 <!-- PRS:START -->
-**Merged: 21 in 9 projects**
+**Merged: 23 in 10 projects**
 
 | Project | Pull request | Merged |
 |---|---|---|
@@ -104,15 +104,15 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [INFO commandstats counts WATCH, UNWATCH, HELLO, DISCARD, RESET and AUTH (#388)](https://github.com/kividbio/kividb/pull/533) | 2026-11-09 |
 | [voyager-browser/voyager](https://github.com/voyager-browser/voyager) | [feat(shortcuts): focus the address bar with Alt+D](https://github.com/voyager-browser/voyager/pull/95) | 2026-11-04 |
 | [Snorlark/plop-ui](https://github.com/Snorlark/plop-ui) | [feat(react): add a name prop to Select and MultiSelect](https://github.com/Snorlark/plop-ui/pull/130) | 2026-11-05 |
+| [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Read messages that follow the subscribe confirmation](https://github.com/redis/mcp-redis/pull/203) | 2026-11-23 |
+| [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Keep one Redis client per decode_responses mode](https://github.com/redis/mcp-redis/pull/202) | 2026-11-23 |
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag Unicode tag characters and scan the text they hide](https://github.com/obielin/skillshield/pull/91) | 2026-11-10 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LangGraph harness: drop only this run's indexes](https://github.com/kividbio/kividb/pull/343) | 2026-11-04 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [Mem0 harness: Redis vector store and the Memory API](https://github.com/kividbio/kividb/pull/342) | 2026-11-04 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: drop only this run's indexes, and correct the report](https://github.com/kividbio/kividb/pull/341) | 2026-11-04 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: Redis vector store, docstore, index store and kv store](https://github.com/kividbio/kividb/pull/334) | 2026-11-04 |
-| [danoszz/penthera](https://github.com/danoszz/penthera) | [fix(report): read the Markdown report version from package.json](https://github.com/danoszz/penthera/pull/244) | 2026-11-04 |
-| [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag the whole environment sent over HTTP in SG-002](https://github.com/obielin/skillshield/pull/90) | 2026-11-10 |
 
-**In review: 10**
+**In review: 8**
 
 | Project | Pull request |
 |---|---|
@@ -120,8 +120,6 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [langgenius/dify](https://github.com/langgenius/dify) | [refactor(api): use explicit sessions in ApiToolManageService](https://github.com/langgenius/dify/pull/45587) |
 | [scylladb/scylla-rust-driver](https://github.com/scylladb/scylla-rust-driver) | [docs: add a chapter and an example for CachingSession](https://github.com/scylladb/scylla-rust-driver/pull/2021) |
 | [RadioAstronomySoftwareGroup/pyuvdata](https://github.com/RadioAstronomySoftwareGroup/pyuvdata) | [List the antennas that are not in antenna_numbers in the UVData.check error](https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pull/1744) |
-| [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Read messages that follow the subscribe confirmation](https://github.com/redis/mcp-redis/pull/203) |
-| [redis/mcp-redis](https://github.com/redis/mcp-redis) | [Keep one Redis client per decode_responses mode](https://github.com/redis/mcp-redis/pull/202) |
 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [feat(chat): N-ATLaS as a native chat provider, answering without the English round trip](https://github.com/Terngi-AI/tergniai-multilang/pull/135) |
 | [obielin/skillshield](https://github.com/obielin/skillshield) | [Flag curl/wget piped into a shell in SG-006](https://github.com/obielin/skillshield/pull/89) |
 | [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |

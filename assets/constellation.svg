@@ -153,8 +153,8 @@
 <line x1="700.0" y1="214.8" x2="727.7" y2="204.4" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <line x1="727.7" y1="204.4" x2="671.4" y2="219.1" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <circle cx="700.0" cy="214.8" r="3.5" fill="#ffd479" class="tw"/>
-<circle cx="727.7" cy="204.4" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>redis/mcp-redis#203: Read messages that follow the subscribe confirmation (open)</title></circle>
-<circle cx="671.4" cy="219.1" r="4.5" fill="none" stroke="#58a6ff" stroke-width="1.6" class="pu"><title>redis/mcp-redis#202: Keep one Redis client per decode_responses mode (open)</title></circle>
+<circle cx="727.7" cy="204.4" r="4.5" fill="#7ee787" class="tw" style="animation-delay:2.7s"><title>redis/mcp-redis#203: Read messages that follow the subscribe confirmation (merged)</title></circle>
+<circle cx="671.4" cy="219.1" r="4.5" fill="#7ee787" class="tw" style="animation-delay:2.5s"><title>redis/mcp-redis#202: Keep one Redis client per decode_responses mode (merged)</title></circle>
 <text x="700.0" y="326.8" font-size="11" fill="#c9d1d9" text-anchor="middle">mcp-redis</text>
 <line x1="756.0" y1="150.3" x2="725.8" y2="149.5" stroke="#6f86b8" stroke-opacity=".5" stroke-width="1"/>
 <circle cx="756.0" cy="150.3" r="3.5" fill="#ffd479" class="tw"/>
@@ -165,7 +165,7 @@
 <circle cx="789.8" cy="130.9" r="4.5" fill="#7ee787" class="tw" style="animation-delay:2.6s"><title>voyager-browser/voyager#95: feat(shortcuts): focus the address bar with Alt+D (merged)</title></circle>
 <text x="812.0" y="257.3" font-size="11" fill="#c9d1d9" text-anchor="middle">voyager</text>
 <text x="20" y="28" font-size="13" fill="#e6edf3">open source constellation</text>
-<text x="20" y="46" font-size="11" fill="#8b949e">21 merged · 10 open · 15 projects — one star per pull request</text>
+<text x="20" y="46" font-size="11" fill="#8b949e">23 merged · 8 open · 15 projects — one star per pull request</text>
 <circle cx="640" cy="338" r="4" fill="#7ee787"/><text x="650" y="342" font-size="11" fill="#8b949e">merged</text>
 <circle cx="720" cy="338" r="4" fill="none" stroke="#58a6ff" stroke-width="1.5"/><text x="730" y="342" font-size="11" fill="#8b949e">open</text>
 </svg>
