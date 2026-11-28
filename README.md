@@ -112,7 +112,7 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: drop only this run's indexes, and correct the report](https://github.com/kividbio/kividb/pull/341) | 2026-11-04 |
 | [kividbio/kividb](https://github.com/kividbio/kividb) | [LlamaIndex harness: Redis vector store, docstore, index store and kv store](https://github.com/kividbio/kividb/pull/334) | 2026-11-04 |
 
-**In review: 7**
+**In review: 5**
 
 | Project | Pull request |
 |---|---|
@@ -121,8 +121,6 @@ Every pull request I send to a project that isn't mine becomes a star. Stars fro
 | [scylladb/scylla-rust-driver](https://github.com/scylladb/scylla-rust-driver) | [docs: add a chapter and an example for CachingSession](https://github.com/scylladb/scylla-rust-driver/pull/2021) |
 | [RadioAstronomySoftwareGroup/pyuvdata](https://github.com/RadioAstronomySoftwareGroup/pyuvdata) | [List the antennas that are not in antenna_numbers in the UVData.check error](https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pull/1744) |
 | [Terngi-AI/tergniai-multilang](https://github.com/Terngi-AI/tergniai-multilang) | [feat(chat): N-ATLaS as a native chat provider, answering without the English round trip](https://github.com/Terngi-AI/tergniai-multilang/pull/135) |
-| [meteor/meteor](https://github.com/meteor/meteor) | [Show a clear error when list_package_changes.sh option has no value](https://github.com/meteor/meteor/pull/14972) |
-| [meteor/meteor](https://github.com/meteor/meteor) | [Reject IPv4 numbers greater than 255](https://github.com/meteor/meteor/pull/14971) |
 
 [Every merged pull request, on GitHub →](https://github.com/search?q=author%3Amatheussilvano%20is%3Apr%20is%3Amerged%20is%3Apublic%20-user%3Amatheussilvano&type=pullrequests)
 <!-- PRS:END -->
